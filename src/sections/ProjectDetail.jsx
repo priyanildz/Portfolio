@@ -83,7 +83,7 @@ const ProjectDetail = () => {
               </p>
             </div>
 
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <a
                 href={project.link}
                 target="_blank"
@@ -92,7 +92,7 @@ const ProjectDetail = () => {
               >
                 Explore Codebase <ExternalLink size={18} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* --- UPDATED: Visual Container with better height and alignment --- */}
