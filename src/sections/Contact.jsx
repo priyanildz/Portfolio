@@ -7,7 +7,7 @@ const Contact = () => {
   const [isSending, setIsSending] = useState(false);
   const [isSent, setIsSent] = useState(false);
   
-  const whatsappNumber = "XXXXXXXXXXXX"; // Put your actual number here
+  const whatsappNumber = "919022790465"; // Put your actual number here
 
   const sendEmail = (e) => {
     e.preventDefault();
