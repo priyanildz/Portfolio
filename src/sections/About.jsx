@@ -5,12 +5,13 @@ const About = () => {
   const skills = [
     "React",
     "Python",
+    "Angular",
     "MSc AI",
     "NLP",
     "MongoDB",
     "UiPath",
     "Node.js",
-    "Tailwind",
+    "Javascript",
   ];
 
   return (
@@ -30,14 +31,15 @@ const About = () => {
         {/* Left Side: Text Content */}
         <div className="text-gray-400 text-lg leading-relaxed">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            necessitatibus, delectus laudantium aspernatur quod molestias ipsa
-            saepe, optio ducimus et corporis unde harum ad esse possimus in rem
-            ratione. Totam.
+            A goal-oriented M.Sc. in Artificial Intelligence student with robust
+            experience in Python, MongoDB, and Web and APP Development.
           </p>
           <p className="mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            ipsum.
+            Dedicated to backend technologies, actively exploring
+            Node.js/Express.js, and excelling at building scalable, intelligent
+            systems, such as the "IT Samachaar" curation agent. Seeking an
+            opportunity to apply expertise in AI-driven backend projects and
+            deliver high-signal solutions.
           </p>
 
           {/* Quick Skill Tags */}
@@ -75,7 +77,7 @@ const About = () => {
             </p>
             <p className="text-white">
               <span className="text-cyan-400">const</span> goals = [
-              <span className="text-yellow-200">"Advanced NLP"</span>,
+              <span className="text-yellow-200">"ML/DL"</span>,
               <span className="text-yellow-200">"3D Web"</span>
               ];
             </p>
