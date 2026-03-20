@@ -28,7 +28,8 @@ const Home = () => (
 
 function App() {
   return (
-    <Router>
+    // <Router>
+    <Router basename="/Portfolio">
       <div className="bg-[#0a0a0a] text-white min-h-screen selection:bg-cyan-400/30 relative">
         {/* Global Animated Background */}
         <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10">
