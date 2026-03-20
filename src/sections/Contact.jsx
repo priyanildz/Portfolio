@@ -54,7 +54,7 @@ const Contact = () => {
             <span className="tracking-tight">WhatsApp</span>
           </a>
 
-          <a href="mailto:nidhi@example.com" className="flex items-center gap-4 text-white hover:text-cyan-400 transition-all text-lg font-bold group">
+          <a href="mailto:nidhipandey8108@gmail.com" className="flex items-center gap-4 text-white hover:text-cyan-400 transition-all text-lg font-bold group">
             <div className="p-3 bg-cyan-400/10 rounded-2xl text-cyan-400 group-hover:bg-cyan-400 group-hover:text-black transition-all">
               <Mail size={20} />
             </div>
