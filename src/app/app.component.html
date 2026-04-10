@@ -1,0 +1,17 @@
+<div class="bg-[#0a0a0a] text-white min-h-screen selection:bg-cyan-400/30 relative">
+  <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+    <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-cyan-400/10 rounded-full blur-[120px] animate-blob"></div>
+    <div
+      class="absolute bottom-[10%] right-[-5%] w-80 h-80 bg-purple-500/10 rounded-full blur-[100px] animate-blob"
+      style="animation-delay: 2s"
+    ></div>
+  </div>
+
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+  <app-scroll-to-top></app-scroll-to-top>
+
+  <footer class="py-10 text-center text-gray-500 text-sm border-t border-white/5">
+    <p>© {{ currentYear }} Nidhi. Built with Angular and Tailwind.</p>
+  </footer>
+</div>

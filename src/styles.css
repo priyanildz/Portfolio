@@ -1,0 +1,74 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0a0a0a;
+  --color-accent: #00f5ff;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before {
+    border-style: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@keyframes blobFloat {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(20px, -15px) scale(1.06);
+  }
+  66% {
+    transform: translate(-15px, 20px) scale(0.94);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blobFloat 9s ease-in-out infinite;
+}
+
+@media (max-height: 700px) {
+  section {
+    height: auto;
+    min-height: 100vh;
+    scroll-snap-align: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding-left: 5rem;
+  }
+}
+
+nav {
+  box-shadow: 0 0 40px rgba(0, 245, 255, 0.05);
+}
+
+a,
+button {
+  cursor: pointer !important;
+}
