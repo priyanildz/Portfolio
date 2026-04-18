@@ -11,6 +11,18 @@ export interface PortfolioProject {
 
 export const projects: PortfolioProject[] = [
   {
+  id: 'contact-manager',
+  title: 'Contact Manager',
+  tags: ['Node.js', 'Express', 'MongoDB', 'React', 'JWT', 'REST APIs'],
+  description: 'A full-stack contact management application with authentication and user-specific data handling.',
+  insight:
+    'Built a secure system with JWT-based authentication and multi-user data isolation, allowing users to manage their own contacts with CRUD operations and search functionality.',
+  challenges:
+    'Implementing secure authentication, handling user-specific data isolation, and ensuring validation with duplicate prevention.',
+  repoUrl: 'https://github.com/priyanildz/Contact-Book.git',
+  liveDemoUrl: 'https://contact-book-six.vercel.app'
+},
+  {
     id: 'it-samachaar',
     title: 'IT Samachaar',
     tags: ['Python', 'MongoDB Atlas', 'Gemini LLM', 'RAG', 'Scikit-learn'],
@@ -21,6 +33,18 @@ export const projects: PortfolioProject[] = [
       'Handling multi-source scraping reliability and improving relevance of retrieved content using vector embeddings.',
     repoUrl: 'https://github.com/priyanildz/IT-News-Aggregator-IT_Samachaar.git'
   },
+
+  {
+  id: 'weather-app',
+  title: 'Weather App',
+  tags: ['JavaScript', 'HTML', 'CSS', 'API Integration'],
+  description: 'A web application that provides real-time weather information based on user input.',
+  insight:
+    'Integrated external weather APIs to fetch and display real-time data, implementing dynamic UI updates based on user search and API responses.',
+  challenges:
+    'Handling asynchronous API calls, managing errors for invalid locations, and ensuring smooth user experience with dynamic data rendering.',
+  repoUrl: 'https://github.com/priyanildz/Weather_app.git'
+},
 
   {
     id: 'leetcode-clone',
