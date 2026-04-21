@@ -48,13 +48,13 @@ export class HomeComponent {
       title: 'Languages',
       iconClass: 'fa-solid fa-code',
       accent: '#00f5ff',
-      items: ['Python', 'JavaScript', 'C++']
+      items: ['Python', 'JavaScript', 'SQL']
     },
     {
       title: 'Frontend',
       iconClass: 'fa-solid fa-display',
       accent: '#61dafb',
-      items: ['HTML', 'CSS', 'Angular', 'ReactJs', 'Flutter (Basic)']
+      items: ['HTML', 'CSS', 'Angular', 'ReactJs']
     },
     {
       title: 'Backend',
@@ -66,7 +66,7 @@ export class HomeComponent {
       title: 'Database',
       iconClass: 'fa-solid fa-database',
       accent: '#47A248',
-      items: ['MongoDB', 'SQL']
+      items: ['MongoDB']
     },
     {
       title: 'Tools and Technologies',
@@ -78,7 +78,7 @@ export class HomeComponent {
       title: 'Core Concepts',
       iconClass: 'fa-solid fa-brain',
       accent: '#c084fc',
-      items: ['NLP', 'Prompt Engineering', 'LLM', 'Data Structures', 'Problem Solving', 'API Development']
+      items: ['Prompt Engineering', 'LLM', 'Data Structures', 'Problem Solving', 'API Development', 'Creative Thinking']
     }
   ];
 
