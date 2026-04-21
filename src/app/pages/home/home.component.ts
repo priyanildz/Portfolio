@@ -87,7 +87,7 @@ export class HomeComponent {
       title: 'Masters of Science in Artificial Intelligence',
       sub: 'KES\' B.K.Shroff College of Arts & Commerce',
       date: '2024 - 2026',
-      score: 'SGPA: 9.09 (Sem 3)'
+      score: 'CGPI: 8.89'
     },
     {
       title: 'Bachelor of Science in Information Technology',
